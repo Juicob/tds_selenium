@@ -96,7 +96,7 @@ def scrape():
         # push data to list
 
         article_url_list.append(article_url)
-        article_title_list.append(article_url)
+        article_title_list.append(article_title) # <<<<<------   here was the issue - I accidentally passed in article url instead of article title here and that's why we got the url for both columns, duhhh - pushing changes
         # originurl_list.append(url)
         listitem_list.append(listitem)
                                                                 # ** ? if "open-box" not in modelurl: doesn't work??? nvm it does. I'm just fuckin stupid
