@@ -6,3 +6,8 @@ First run through of web scraping using selenium
 Ideally I'd like to use this as a small exercise in git in regards to updating this file and potentially merging work from others so we can understand that workflow better.
 
 Also, I don't know what to put in here to advise y'all to scrape responsibly, but yea. Be considerate and scrape responsibly. 
+
+
+### Next Steps
+- Add scrolling to hopefully catch past the first 11 items
+- store data in dictionaries
